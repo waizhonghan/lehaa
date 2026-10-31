@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="floating-hearts"></div>
+
+    <nav>
+        <h2>♡ For My Lehaa</h2>
+        <button id="musicBtn">♫ Play Music</button>
+    </nav>
+
+    <main class="content">
+
+        <p class="subtitle">OUR LITTLE WORLD</p>
+
+        <h1>Our <span>Memories</span> ♡</h1>
+
+        <p class="description">
+            Every picture tells a story.
+            Every moment means something.
+        </p>
+
+        <div class="gallery">
+
+            <div class="photo">
+                <img src="assets/memory-1.jpg" alt="Our memory 1">
+                <p>Our first memory ♡</p>
+            </div>
+
+            <div class="photo">
+                <img src="assets/memory-2.jpg" alt="Our memory 2">
+                <p>A special moment</p>
+            </div>
+
+            <div class="photo">
+                <img src="assets/memory-3.jpg" alt="Our memory 3">
+                <p>Little happiness</p>
+            </div>
+
+            <div class="photo">
+                <img src="assets/memory-4.jpg" alt="Our memory 4">
+                <p>Just us</p>
+            </div>
+
+            <div class="photo">
+                <img src="assets/memory-5.jpg" alt="Our memory 5">
+                <p>Forever remembered</p>
+            </div>
+
+            <div class="photo">
+                <img src="assets/memory-6.jpg" alt="Our memory 6">
+                <p>More memories to come</p>
+            </div>
+
+        </div>
+
+        <a href="declaration.html" class="main-btn">
+            One Last Thing ♡
+        </a>
+
+    </main>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/our-song.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
